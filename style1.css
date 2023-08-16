@@ -1,0 +1,444 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+}
+.nav {
+    background-color: black;
+}
+.nav a {
+    color: white;
+    padding: 10px 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .nav {
+        width: 100%;
+    }
+    .nav a {
+        padding: 10px 10px;
+    }
+}
+.nav a:hover {
+    background-color: #ccc;
+    color: black;
+}
+.nav a:last-child{
+    float: right;
+}
+.header {
+    text-align: center;
+    margin: 60px 0;
+    display: block;
+    line-height: 1.8;
+    font-family: Oswald;
+}
+@media (max-width: 767px) {
+
+}
+.header h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+.header span {
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+}
+.header2 {
+    width: 100%;
+    height: 980px;
+    background-image: url("images/jane.jpg");
+    background-size: cover;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .header2 {
+        width: 100%;
+    }
+}
+.header2 .content {
+    position: absolute;
+    top: 50%;
+}
+
+.header2 h1,.header2 h2 {
+    color: white;
+    line-height: 1.8;
+    margin: 0 20px;
+    font-family: oswald;
+}
+.header2 h1 {
+    font-size: 35px;
+}
+.header2 h2 {
+    font-size: 64px;
+}
+@media (max-width: 767px) {
+    .header2 .content h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+}
+.header2 a {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 12px 24px;
+    background-color: #ccc;
+    color: black;
+    font-family: oswald;
+    font-size: 18px;
+}
+.header2 a:hover {
+    background-color: #fff;
+}
+.main .left-side{
+    width: 60%;
+    float: left;
+    background-color: white;
+    margin: 30px;
+    padding: 25px;
+}
+@media (max-width: 767px) {
+    .main .left-side {
+        width: 90%;
+        float: none;
+        margin: 12px;
+    }
+}
+.left-side .aside1 .head {
+    text-align: center;
+    line-height: 1.8;
+}
+.left-side .aside1 .head h2 {
+    margin: 10px 0;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 24px;
+}
+.left-side .aside1 .head p {
+    margin: 10px 0;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 18px;
+}
+.left-side .aside1 .head p span {
+    opacity: .6;
+}
+.left-side .aside1 .content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.left-side .aside1 .content .p1 {
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-side .aside1 .content .p1 span {
+    font-size: 15px;
+    font-weight: 700;
+}
+.left-side .aside1 .content .p2 {
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-side .aside1 .content .p2 span {
+    font-size: 15px;
+    font-weight: 700;
+}
+.left-side .aside1 .content a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    color: black;
+    margin-bottom: 25px;
+}
+.left-side .aside1 .content .a1 {
+    float: left;
+}
+.left-side .aside1 .content .a1 i {
+    margin-right: 5px;
+}
+.left-side .aside1 .content .a1:hover {
+    background-color: #ccc;
+}
+.left-side .aside1 .content .a2 {
+    float: right;
+    background-color: black;
+    color: white;
+}
+.left-side .aside1 .content .a2:hover {
+    background-color: #ccc;
+    color: black;
+}
+.left-side .aside1 .content .a2 span {
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+    margin-left: 2px;
+    text-align: center;
+}
+.left-side .aside1 .content2 {
+    padding-top: 70px;
+    margin-bottom: 115px;
+}
+@media (max-width: 767px) {
+    .left-side .aside1 .content2 {
+        margin-bottom: 115px;
+    }
+}
+.left-side .aside1 .content2 hr {
+    width: 100%;
+    margin: 20px 0;
+}
+.left-side .aside1 .content2 .img {
+    margin-right: 30px;
+    float: left;
+}
+.left-side .aside1 .content2 .text {
+    float: left;
+    line-height: 1.8;
+    margin-top: 25px;
+}
+@media (max-width: 767px) {
+    .left-side .aside1 .content2 {
+        margin-bottom: 50px;
+    }
+    .left-side .aside1 .content2 .text {
+        float: none;
+    }
+}
+.left-side .aside1 .content2 .text h4 {
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 17px;
+}
+.left-side .aside1 .content2 .text h4 span {
+    font-size: 15px;
+    opacity: 0.6;
+}
+.left-side .aside1 .content2 .text p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 15px;
+}
+.main .right-side{
+    width: 30%;
+    float: right;
+    background-color: white;
+    margin: 30px;
+}
+@media (max-width: 767px) {
+    .main .right-side {
+        width: 90%;
+        margin: 12px;
+        float: none;
+    }
+}
+.right-side .aside1 {
+    background-color: black;
+}
+.right-side .aside1 .content {
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+.right-side .aside1 .content h4 {
+    font-family: Oswald;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.right-side .aside1 .content p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.right-side .aside {
+    margin-bottom: 10px;
+}
+.right-side .aside .head {
+    background-color: black;
+    padding: 8px 16px;
+}
+.right-side .aside .head h4 {
+    color: white;
+    margin: 10px 0;
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 20px;
+}
+.right-side .aside .content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.right-side .aside .content ul li {
+    padding: 12px 16px;
+}
+.right-side .aside .content ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.right-side .aside .content ul li img {
+    float: left;
+    margin-right: 16px;
+}
+.right-side .aside .content ul li span.s1{
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.8;
+}
+.right-side .aside .content ul li span{
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.8;
+}
+.right-side .aside .content ul li:hover {
+    background-color: #ccc;
+}
+.right-side .aside .ad {
+    background-color: #ccc;
+    height: 200px;
+    margin: 15px;
+    position: relative;
+}
+.right-side .aside .ad span {
+    position: absolute;
+    top: 45%;
+    left: 41%;
+}
+.right-side .aside .words {
+    color: black;
+    background-color: white;
+    margin: 10px 15px;
+}
+.right-side .aside .words span {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.right-side .aside .words span.special {
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.right-side .aside .images {
+    padding: 0 8px;
+}
+.right-side .aside .images img {
+    margin: 15px 8px;
+}
+@media (max-width: 767px) {
+    .right-side .aside .images img {
+        width: 140px;
+    }
+}
+.right-side .aside .links {
+    padding: 8px 16px;
+    font-size: 24px;
+}
+.right-side .aside .links i {
+    color: black;
+}
+.right-side .aside .links i:hover {
+    opacity: 0.6;
+}
+.right-side .aside .form {
+    padding: 10px 16px;
+}
+.right-side .aside .form p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.right-side .aside .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+.right-side .aside .form a {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.right-side .aside .form a:hover {
+    color: black;
+    background-color: #ccc;
+}
+.clear {
+    clear: both;
+}
+.separate {
+    background-color: #f1f1f1;
+    width: calc(100% + 50px);
+    height: 30px;
+    position: relative;
+    right: 25px;
+}
+.footer {
+    background-color: #616161;
+    padding: 50px;
+}
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+        height: 300px;
+    }
+}
+.footer > a {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    text-decoration: none;
+}
+.footer > a:hover {
+    color: black;
+    background-color: #ccc;
+}
+.footer > a i {
+    margin-right: 16px;
+}
+.footer p {
+    padding-top: 25px;
+    color: white;
+    font-size: 18px;
+}
+.footer p a {
+    color: white;
+}
